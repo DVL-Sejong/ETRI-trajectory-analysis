@@ -1,0 +1,66 @@
+﻿{
+  "7498": {
+    "channel":7498,
+    "cctvStrtSecnNm": "송도2동행정복지센터"
+  },
+  "7500": {
+    "channel":7500,
+    "cctvStrtSecnNm": "송도사거리"
+  },
+  "7496": {
+    "channel": 7496,
+    "cctvStrtSecnNm": "캠퍼스타운역사거리"
+  },
+  "7494": {
+    "channel": 7494,
+    "cctvStrtSecnNm": "G타워사거리"
+  },
+  "7493": {
+    "channel": 7493,
+    "cctvStrtSecnNm": "센트럴파크사거리"
+  },
+  "7497": {
+    "channel": 7497,
+    "cctvStrtSecnNm": "연대입구사거리"
+  },
+  "7519": {
+    "channel": 7519,
+    "cctvStrtSecnNm": "연세대학교국제캠퍼스"
+  },
+  "7507": {
+    "channel": 7507,
+    "cctvStrtSecnNm": "송도파크호텔사거리"
+  },
+  "7499": {
+    "channel": 7499,
+    "cctvStrtSecnNm": "테크노파크역사거리"
+  },
+  "7501": {
+    "channel": 7501,
+    "cctvStrtSecnNm": "인천카톨릭대학교"
+  },
+  "7502": {
+    "channel": 7502,
+    "cctvStrtSecnNm": "센트럴파크역사거리"
+  },
+  "7508": {
+    "channel": 7508,
+    "cctvStrtSecnNm": "인천대입구역"
+  },
+  "7509": {
+    "channel": 7509,
+    "cctvStrtSecnNm": "지식정보단지사거리"
+  },
+  "7511": {
+    "channel": 7511,
+    "cctvStrtSecnNm": "골프장사거리"
+  },
+  "7510": {
+    "channel": 7510,
+    "cctvStrtSecnNm": "인천대학교송도캠퍼스"
+  },
+  "7515": {
+    "channel": 7515,
+    "cctvStrtSecnNm": "송도블루오션클럽"
+  }
+}

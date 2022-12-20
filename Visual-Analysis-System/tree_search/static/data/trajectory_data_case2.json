@@ -1,0 +1,67 @@
+﻿[
+  {
+    "from": "none",
+    "to": "7498_left",
+    "type": "start"
+  },
+  {
+    "from": "7498_left",
+    "to": "7498_right",
+    "type": "trajectory"
+  },
+  {
+    "from": "7498_right",
+    "to":"7500_left",
+    "type": "trajectory"
+  },
+  {
+    "from": "7500_left",
+    "to": "7500_down",
+    "type": "trajectory"
+  },
+  {
+    "from": "7500_down",
+    "to": "7493_top",
+    "type": "trajectory"
+  },
+  {
+    "from": "7493_top",
+    "to": "7493_down",
+    "type": "trajectory"
+  },
+  {
+    "from": "7493_down",
+    "to": "7507_top",
+    "type": "trajectory"
+  },
+  {
+    "from": "none",
+    "to": "7509_down",
+    "type": "trajectory"
+  },
+  {
+    "from": "7509_down",
+    "to": "7515_top",
+    "type": "trajectory"
+  },
+  {
+    "from": "7515_top",
+    "to": "7515_right",
+    "type": "trajectory"
+  },
+  {
+    "from": "7515_right",
+    "to": "7510_left",
+    "type": "trajectory"
+  },
+  {
+    "from": "7510_left",
+    "to": "7510_right",
+    "type": "trajectory"
+  },
+  {
+    "from": "7510_right",
+    "to": "none",
+    "type": "destination"
+  }
+]
