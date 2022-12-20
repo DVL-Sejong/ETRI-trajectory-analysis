@@ -1,0 +1,479 @@
+html {
+    font-size: 22px;
+}
+body {
+    color: black;
+}
+
+hr {
+    margin: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.page-title {
+    font-weight: bold;
+}
+
+.be-content {
+    max-width: 2300px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+h5 {
+    margin: 0;
+}
+
+.card {
+    margin-bottom:5px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-body > .row {
+    margin: 0;
+}
+
+.header,
+.highcharts-title {
+    margin: 3px 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 24px !important;
+    font-weight: 300;
+    text-align: center;
+}
+
+.map-menu {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right: 30px;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+.map-menu button {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.map-menu button:last-child {
+    border: none;
+}
+
+.map-menu button:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.chart-timeline {
+    height: 80px;
+    margin-top: 20px;
+}
+
+.timeslider-wrapper {
+    height: 50px;
+    margin: 0 10px;
+    padding-top: 13px;
+    text-align: center;
+}
+.timeslider-wrapper .bslider {
+    display: none;
+}
+.timeslider-wrapper .slider {
+    width: 100%;
+}
+.timeslider-wrapper .slider .slider-track {
+    background-color: #ccc;
+}
+.timeslider-wrapper .slider .slider-track .slider-selection {
+    background-color: #999;
+    border: 1px solid #999;
+}
+.timeslider-wrapper .slider .slider-handle {
+    background-color: #555;
+    cursor: pointer;
+}
+.timeslider-wrapper .slider .slider-handle .handle-text {
+    line-height: 19px;
+    font-size: 10px;
+    color: #ccc;
+    cursor: inherit;
+}
+
+.cctv-list {
+    height: 113px;
+    overflow-y: auto;
+}
+.cctv-list .cctv-item {
+    float: left;
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #555;
+    border-left: none;
+    border-top: none;
+    cursor: pointer;
+}
+.cctv-list .cctv-item:nth-child(5n+1) {
+    border-left: 1px solid #555;
+}
+.cctv-list .cctv-item:nth-child(-n+5) {
+    border-top: 1px solid #555;
+}
+.cctv-list .cctv-item.red {
+    background-color: #fb8072;
+}
+.cctv-list .cctv-item.green {
+    background-color: #ccebc5;
+}
+.cctv-list .cctv-item.blue {
+    background-color: #b3cde3;
+}
+.cctv-list .cctv-item.red.selected {
+    background-color: #e37467;
+}
+.cctv-list .cctv-item.green.selected {
+    background-color: #bbd7b5;
+}
+.cctv-list .cctv-item.blue.selected {
+    background-color: #a1b7ca;
+}
+.cctv-list-legend {
+    margin-left: 5px;
+    font-size: 13px;
+}
+.cctv-list-legend .legend {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #aaa;
+}
+.cctv-list-legend .legend.red {
+    background-color: #fb8072;
+}
+.cctv-list-legend .legend.green {
+    background-color: #ccebc5;
+}
+.cctv-list-legend .legend.blue {
+    background-color: #b3cde3;
+}
+
+.cctv-direction .row .col {
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-top: none;
+}
+.cctv-direction .row .col:last-child {
+    border-right: none;
+}
+.cctv-direction .row:last-child .col {
+    border-bottom: none;
+}
+.cctv-direction .row .col.apply-wrapper .apply {
+    margin: 0 !important;
+    padding: 0 5px !important;
+}
+.cctv-direction .row .col .custom-radio {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+.cctv-direction .row .col .custom-radio .custom-control-label {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.video-js {
+    width: 100%;
+    height: 100%;
+}
+
+.directed-graph-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 120px;
+}
+.directed-graph-buttons button {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    cursor: pointer;
+}
+.directed-graph-buttons button:first-child {
+    border-top: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+}
+.directed-graph-buttons button:last-child {
+    border-radius: 0 0 10px 10px;
+}
+.directed-graph {
+    width: 100%;
+    height: 425px;
+}
+.directed-graph .node {
+
+}
+
+.edge-encoding {
+    margin-top: 10px;
+}
+.edge-encoding .custom-radio {
+    margin-bottom: .5rem;
+    padding-left: 1.3rem;
+}
+.edge-encoding .custom-radio .custom-control-label {
+    float: left;
+    /*width: 50%;*/
+    text-align: center;
+    color: black;
+}
+.edge-encoding .custom-radio .custom-control-label img {
+    width: 214px;
+}
+.edge-encoding .custom-radio .custom-control-label::before {
+    top: .3rem;
+    width: 1rem;
+    height: 1rem;
+}
+.edge-encoding .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    top: .3rem;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.15;
+    font-size: .9rem;
+}
+.edge-encoding .edge-encoding-congestion-type {
+    height: 90px;
+    padding-top: 5px;
+}
+.edge-encoding .edge-encoding-propagation {
+    height: 85px;
+    padding-top: 5px;
+}
+
+.node-legend {
+    margin-top: 10px;
+}
+.node-legend-img {
+    width: 20px;
+    height: 20px;
+}
+
+.cctvs {
+    width: 486px;
+    margin: 0 auto;
+}
+.cctvs .empty-cctv {
+    width: 241px;
+    height: 136px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.cctv-sampling .cctv-sampling-table {
+    width: 100%;
+    margin: 10px 0;
+}
+.cctv-sampling th {
+    line-height: 1;
+    vertical-align: middle !important;
+    padding: 3px;
+}
+.cctv-sampling td {
+    padding: 0;
+}
+.cctv-sampling .fc {
+    width: 50px;
+}
+.cctv-sampling .cctv-id {
+    width: 90px;
+}
+.cctv-sampling .sampling-group {
+    width: 90px;
+}
+
+.cctv-sampling .entropy {
+    width: 220px;
+}
+.cctv-sampling .bg-changed {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+.cctv-sampling .bg-changed.red {
+    background-color: #aa0000;
+}
+.cctv-sampling .bg-changed.green {
+    background-color: #00aa00;
+}
+.cctv-sampling .interval-chart {
+    max-width: 200px;
+    margin: 0 auto;
+    border-left: 1px solid #555;
+}
+.cctv-sampling .interval-chart .interval-value {
+    float: left;
+    width: 8.33%;
+    border: 1px solid #555;
+    border-left: none;
+}
+.cctv-sampling .interval-chart .interval-value.on {
+    background-color: #555;
+}
+.cctv-sampling .interval-chart .clear {
+    clear: both;
+}
+.cctv-sampling .entropy-summary {
+    width: 200px;
+}
+
+.propagation-tree .node {
+    cursor: pointer;
+}
+.propagation-tree .node circle {
+    fill: #fff;
+    stroke: #555;
+    stroke-width: 1px;
+}
+.propagation-tree .node text {
+    font: 12px sans-serif;
+}
+.propagation-tree .link {
+    fill: none;
+    stroke: #555;
+    stroke-width: 2px;
+}
+.propagation-tree .link path {
+    fill: none;
+    stroke: #555;
+    stroke-width: 2px;
+}
+.propagation-tree .link text {
+    font: 12px sans-serif;
+    stroke: #333;
+    stroke-width: 1;
+}
+
+.congestion-heatmap .highcharts-data-table table {
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+}
+.congestion-heatmap .highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.congestion-heatmap .highcharts-data-table th {
+	font-weight: 600;
+    padding: 0.5em;
+}
+.congestion-heatmap .highcharts-data-table td,
+.congestion-heatmap .highcharts-data-table th,
+.congestion-heatmap .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.congestion-heatmap .highcharts-data-table thead tr,
+.congestion-heatmap .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.congestion-heatmap .highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.undetected-vehicles {
+    width: 100%;
+    height: 118px;
+    overflow-y: auto;
+}
+.undetected-vehicles .vehicle-item {
+    position: relative;
+    width: 25%;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.undetected-vehicles .vehicle-item img {
+    max-width: 100%;
+}
+.undetected-vehicles .vehicle-item .cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/static/img/tick.png) no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.undetected-vehicles .vehicle-item.selected .cover {
+    display: block;
+}
+.learn-vehicle-wrapper {
+    text-align: right;
+}
+
+.node-conv-config {
+    text-align: center;
+}
+
+.model-config .config-title {
+    height: 2rem;
+    padding: 0;
+    text-align: center;
+    border-right: 2px solid #dee2e6;
+}
+.model-config .config-title .rotated {
+    transform: rotate(270deg);
+}
+.model-config .config-label {
+    width: 50%;
+    height: 2rem;
+    padding: 0 !important;
+}
+.model-config .config-label > label {
+    width: 100%;
+    padding-left: 10px;
+    margin: 0;
+}
+.model-config .config-input {
+    padding: 0 !important;
+}
+.model-config .config-input .form-control {
+    width: 100%;
+    height: 2rem;
+    background-color: #f3f3f3;
+    border: none;
+}
